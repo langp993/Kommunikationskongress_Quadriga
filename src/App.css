@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  /* height: 180%; */
+  margin: 0;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: #220e76; /* Set background color to #220E76 */
+}
+
+p {
+  font-family: 'Proxima Nova', sans-serif; /* Apply Proxima Nova font to paragraphs */
+  font-weight: 700; /* Bold weight */
+}
+
+h1 {
+  font-family: 'Proxima Nova', sans-serif; /* Apply Proxima Nova font to headings */
+  font-weight: 700; /* Bold weight */
+}
+
+.text-custom-color {
+  color: #fffdf3; /* Set custom color to #220e76 */
+}
